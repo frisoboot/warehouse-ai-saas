@@ -1,4 +1,4 @@
--- EcoGiving Warehouse Management System - Initial Schema
+-- SocialGoodz Warehouse Management System - Initial Schema
 -- Migration: 00001_initial_schema.sql
 
 -- Enable UUID extension

@@ -62,7 +62,7 @@ export function Sidebar() {
           {/* Logo */}
           <div className="flex h-16 items-center gap-2 border-b px-6">
             <Leaf className="h-6 w-6 text-green-600" />
-            <span className="text-lg font-semibold text-green-800">EcoGiving</span>
+            <span className="text-lg font-semibold text-green-800">SocialGoodz</span>
             <span className="text-xs text-muted-foreground ml-1">WMS</span>
           </div>
 
@@ -96,7 +96,7 @@ export function Sidebar() {
           {/* Footer */}
           <div className="border-t p-4">
             <p className="text-xs text-muted-foreground text-center">
-              EcoGiving Warehouse v1.0
+              SocialGoodz Warehouse v1.0
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 {
-  "name": "EcoGiving Warehouse Management System",
-  "short_name": "EcoGiving WMS",
+  "name": "SocialGoodz Warehouse Management System",
+  "short_name": "SocialGoodz WMS",
   "description": "Warehouse management for sustainable corporate gifts",
   "start_url": "/dashboard",
   "display": "standalone",
