@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { supabase } from "@/lib/supabase";
 import {
   LayoutDashboard,
   Package,
@@ -15,6 +16,7 @@ import {
   Menu,
   X,
   Leaf,
+  LogOut,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -31,7 +33,14 @@ const navigation = [
 
 export function Sidebar() {
   const pathname = usePathname();
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  async function handleLogout() {
+    await supabase.auth.signOut();
+    router.push("/login");
+    router.refresh();
+  }
 
   return (
     <>
@@ -94,7 +103,14 @@ export function Sidebar() {
           </nav>
 
           {/* Footer */}
-          <div className="border-t p-4">
+          <div className="border-t p-4 space-y-2">
+            <button
+              onClick={handleLogout}
+              className="flex w-full items-center gap-3 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-red-50 hover:text-red-700 transition-colors"
+            >
+              <LogOut className="h-4 w-4" />
+              Uitloggen
+            </button>
             <p className="text-xs text-muted-foreground text-center">
               EcoGiving Warehouse v1.0
             </p>
