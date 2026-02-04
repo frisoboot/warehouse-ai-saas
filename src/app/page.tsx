@@ -6,7 +6,7 @@ export default function Home() {
       <div className="text-center space-y-6 p-8">
         <div className="space-y-2">
           <h1 className="text-4xl font-bold tracking-tight text-green-800 sm:text-6xl">
-            EcoGiving
+            SocialGoodz
           </h1>
           <p className="text-lg text-muted-foreground">
             Warehouse Management System

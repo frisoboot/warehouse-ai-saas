@@ -1,6 +1,6 @@
-# EcoGiving Warehouse Management System
+# SocialGoodz Warehouse Management System
 
-A full-stack warehouse management system built for EcoGiving, a sustainable corporate gifts company. Built with Next.js 14, Supabase, and shadcn/ui.
+A full-stack warehouse management system built for SocialGoodz, a sustainable corporate gifts company. Built with Next.js 14, Supabase, and shadcn/ui.
 
 ## Features
 
@@ -146,4 +146,4 @@ supabase/
 
 ## License
 
-Private - EcoGiving
+Private - SocialGoodz

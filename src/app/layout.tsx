@@ -4,13 +4,13 @@ import { QueryProvider } from "@/lib/query-client";
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "EcoGiving Warehouse",
-  description: "Warehouse Management System for EcoGiving - Sustainable Corporate Gifts",
+  title: "SocialGoodz Warehouse",
+  description: "Warehouse Management System for SocialGoodz - Sustainable Corporate Gifts",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "EcoGiving WMS",
+    title: "SocialGoodz WMS",
   },
 };
 

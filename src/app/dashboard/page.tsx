@@ -128,7 +128,7 @@ export default async function DashboardPage() {
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
         <p className="text-muted-foreground mt-1">
-          EcoGiving Warehouse Management overview
+          SocialGoodz Warehouse Management overview
         </p>
       </div>
 
